@@ -1,0 +1,12 @@
+1
+
+2323
+```
+select *
+from student s
+where s.student_id not in ( 
+	select ss.student_id
+	from student_score ss
+	group by ss.student_id
+	having count(*)=(select count(c.course_id) from course c)
+ ```

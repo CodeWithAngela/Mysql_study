@@ -1,5 +1,5 @@
 SELECT 
-    s.student_id,
+	s.student_id,
     s.name,
     ss.course_id,
     ss.score,

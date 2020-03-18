@@ -7,4 +7,4 @@ JOIN student s USING(student_id)
 GROUP BY student_id, s.name
 HAVING AVG(score) > 60
 ```
-![image](https://github.com/CodeWithAngela/Mysql_study/blob/master/Raw/Images/2_result.png)
+![image](https://github.com/CodeWithAngela/Mysql_study/blob/master/Raw/Images/2.png)
